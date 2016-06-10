@@ -1,0 +1,1 @@
+/Users/emirhankutlu/Downloads/BilgiAndroidDemoOne.git 2/app/build/intermediates/classes/debug
