@@ -1,0 +1,31 @@
+I’ve searched for array and for structures. 
+I don’t know how to make user select an element from an array and calculate it with my method
+
+I’ve searched more but i still don’t know how to manage that problem. 
+I can create an array but I’m not sure that should i create another class for it.
+
+I’ve changed my whole design from the latest project. 
+I’ll try to make a list view of scroll view -something like that- 
+But I’m not sure yet how to make user to make a decision between those array items. 
+
+I renounce the idea of make user the decision with clicking on values because it’s 
+hard to do it with my java knowledge so far. 
+I will make 4 inputs and these inputs will hold the values that user will type in arrays.
+
+
+I renounce that idea either. I have made one input which is for salary, one textview for nett salary 
+and a dialog page for band and tax inputs so that user can identify s/he’s own band and tax choices. 
+
+I open an another xml file for dialog page. I have added two spinners in dialog page. 
+Spinners will contain two separate lists. One of them will contain bands and the other one will taxes.
+User will choose two of bands and three of taxes from lists. These selections will be put in arrays.
+
+I had problem with spinners but I realize that i forgot to type “dialog.show()”.
+
+As I said user will choose two bands and three taxes but i don’t know how to make user 
+choose three choices on one spinners so I created 3 spinners for each.
+One spinner of bands will contain only “Rest” means rests tax rate.
+
+The program works in the correct way.
+
+

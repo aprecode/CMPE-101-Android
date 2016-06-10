@@ -1,0 +1,25 @@
+<resources>
+  <string name="app_name">Bilgi Android Demo One</string>
+
+  <string name="hello_world">Hello world!</string>
+  <string name="action_settings">Settings</string>
+
+
+  <string name="poly_text_view">Polynomial Coef.</string>
+  <string name="poly_edit_text">0.0</string>
+
+  <string name="guess_text_view">Guess</string>
+  <string name="guess_edit_text">0.0</string>
+
+  <string name="acc_text_view">Accuracy Limit</string>
+  <string name="acc_edit_text">0.0</string>
+
+  <string name="iteration_text_view">Iteration Limit</string>
+  <string name="iteration_edit_text">0.0</string>
+
+  <string name="roots_button">Find Roots</string>
+  <string name="add_to_array">Add Coef.</string>
+
+  <string name="roots_text_view">Roots</string>
+
+</resources>
