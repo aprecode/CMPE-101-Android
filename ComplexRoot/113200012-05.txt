@@ -1,0 +1,18 @@
+This project seems simple to do but i’m having some difficulties about understanding the project. 
+But I think I know what pattern I will use. Methods will be wrote in for loop i guess.
+
+My last project didn’t go well because of some errors that i can’t find. I will use the latest project to modify.
+
+I don’t understand where will I use lower and upper limit. 
+Because of that ı have removed lower limit and count inputs because I don’t know how to use them.
+
+I started on the assignment and create 2 inputs, 2 buttons and 3 outputs. 
+First input takes an double value and when the first button is clicked program takes that value into an array. 
+The second inputs holds a double value and it will be used in 2nd and 3rd calculations and that calculations will be shown into two outputs.
+
+I tried try catch method to give user a message when s/he leaves the inputs empty 
+but it’s seems complicated and I don’t understand it.
+So I decided to use ‘compare to’ method. 
+
+I have the same problem like in the other program that occurred. 
+I think there is a problem with ‘parse’ thing and I still can’t find a way to fix it.

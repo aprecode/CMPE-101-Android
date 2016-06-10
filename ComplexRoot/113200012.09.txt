@@ -1,0 +1,19 @@
+I created a class named Complex. I added add, subtract, multiply and divide 
+methodsin the Complex class. Then i typed a toString method for complex numbers.
+
+In design I have created 2 edit texts which are for the real and imaginary parts
+of a complex number. And I added 2 text views which are fore adding and 
+multiplying. I also created 2 more buttons. One for create a complex number and
+the second one for make the calculations that I have mentioned.
+
+I have created an array list for complex number. When the ‘create complex’ 
+button hit, program should take complex numbers coefficients from editTexts and
+create an complex number. I have set an o’n click listener for that button.
+
+I have created an Complex object and added two methods in Polynomial class which
+are addPoly and multPoly these two methods adds and multiplies a polynomial with
+a complex number. 
+
+I have added another method that makeAnotherFromRoots. The method takes a 
+polynomial and an array of complex then gives a complex polynomial but it gives
+error and I can’t find out why.

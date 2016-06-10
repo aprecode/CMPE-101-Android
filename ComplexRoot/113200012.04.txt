@@ -1,0 +1,13 @@
+I started searching about Newton’s Method and get more information about it. We wrote a code in lecture and I’m gonna use that pattern in this project.
+
+I have changed my entire design at the last project so i decided to modify my 2nd project because it’s design is more convenient for this project.
+
+An error has occurred. While making my design everything stopped and disappeared. I opened android studio again but there were other errors that I couldn’t solve. I opened another project to modify
+
+I created 4 inputs for a number whose square root is to be taken, a guess, an accuracy limit and an upper for the number iterations to be done.
+
+I wrote method but when I enter 0 as guess, program freezes. I guess it can’t go out from while loop. Also when I leave inputs empty as expected it stops so I decided to go back my previous code in order to fix the stopping problem.
+
+It doesn’t work I did it at previous project but now somehow It doesn’t work as I want and I couldn’t manage to fix it. In this one it doesn’t even reach the method.
+
+I found out that my else statement doesn’t work properly but I couldn’t fix it. Also my method seems wrong. It needs to have return statement but I don’t know where should I write. 

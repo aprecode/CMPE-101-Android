@@ -1,0 +1,150 @@
+The program takes 4 inputs which are for polynomial coefficients, guess, accuracy 
+and iteration limit and gives one output for array of roots of a polynomial.
+
+Coefficients will be collected in an array. With a method I will create a 
+polynomial function with them. Guess is for getting a root. Accuracy is to get a
+better approximation and finally Iteration is the number that how many the 
+calculation will be recalculated 
+
+First i started with strings file which is in the dimensions folder. I typed the
+names and texts that will going to be presented on texts and buttons etc. Whit 
+this way i can type id identifications and texts faster. Then I created 4 input,
+1 output and 2 buttons; one is for adding coefficients to the array and the 
+other one for finding roots. I’ve finished my work for app design
+
+In main activity I created editTexts, text views etc. and initialised them in 
+OnCreate section. Also I created two ArrayLists. One is for coefficients list 
+and the other one is for rootsList (because there may be more then one root for
+a polynomial)
+
+I have set a clickListener for adding coefficients to an arrayList. Then I typed
+my methods for evaluate a polynomial and finding derivative. Those will be used 
+for finding root method.
+
+I have set a clickListener for finding roots but I couldn’t call my evaluatePoly
+and derivative methods. It gives error when i type it in the findRoots method. 
+There are no other problem for my program I will try to solve this now 
+
+I have solved the problem that I explained before but another problem has 
+occurred that i can’t understand. My program gives an error at method calling 
+section and I don’t know how to solve it. I gives me to change my method but 
+that’s not the solution. Also couldn’t manage to set my solution to the output.
+
+I have manage to set solution to the output but the other problem still remains.
+It seems thats the only one problem. For now I have finished my work but I think
+the solution is simple but I can’t see it now.
+
+
+—findRoots—
+
+Data definition: a double list of polynomial, a double guess, a double accuracy
+limit, and an integer iteration limit
+
+Contract: poly guess acclimit iterlimit —> root
+
+Purpose: Find a root of a polynomial
+
+Example:
+ [x+1] —> -1.0
+ [x^2-3x+2] —> 2.0
+
+
+—evaluatePolynomial—
+
+Data definition: a double list of polynomial and a double value 
+
+Contract: poly x —> root
+
+Purpose: Method gives a value of a polynomial for a value x 
+
+Example:
+[1 1] 1 —> 2.0
+[1 2 3] 2 —> 17.0
+
+
+—findDerivative—
+
+Data definition: a double list of polynomial
+
+Contract: poly —> derivative of poly
+
+Purpose: Gives the first derivative of a polynomial
+
+Example:
+[3x^2+2x+1] —> 6x+2
+[4x+5] —> 4.0
+
+
+********* NEW STUFF ***********
+
+I realized my mistake for last project. I have declared my variables as 
+ArrayLists but I have initialised them as an array. Also I have miswrote the 
+order of the variables so that my project didn’t work last time.
+
+In this project I added new methods. They can be listed as: findAllRoots, 
+addUniqueRoots, isRootInRoots and addRootToRoots.
+
+
+
+—findAllRoots—
+
+Data definition: Double list of Polynomial
+
+Contract: Poly —> Roots
+
+Purpose: Gives all roots of a polynomial
+
+Example:
+[2 3 1] —> [1.0 2.0]
+[-1 0 1] —> [1.0 -1.0]
+
+
+
+—addUniqueRoot—
+
+Data definition: Unordered collection of unique roots stored in an array of doubles
+
+Contract: Roots Root —> Roots
+
+Purpose: Add valid root to roots
+
+Example:
+[] 1.0 —> [1]
+[1.0] 1.0 —> [1]
+[1.0] 0.99999 —> [1.0]
+
+
+
+—addRootToRoots—
+
+Data definition: root which is not in roots and roots which is unordered array 
+of unique doubles
+
+Contract: Roots Root —> Roots
+
+Purpose: add value root to roots
+
+Example
+[] 3 —> [3.0]
+[1.0 2.0 3.0] 4.0 —> [1.0 2.0 3.0 4.0]
+
+
+
+—isRootInRoots—
+
+Data definition: roots which is unordered value of unique roots and root is a 
+double value
+
+Contract: roots root —> boolean
+
+Purpose: Is there a value in roots which is with in the accuracy limit from root?
+
+Example:
+[] 1.0 —> false
+[1.0] 1.0 —> true
+[1.0] 0.99999 —> true
+
+In findAllRoot method we have to make a random guess but a couldn’t do it and i 
+think variables that i typed into findRoots where is in findAllRoot method is wrong so that when i click the find roots button it, program fortunately doesn’t blow up freezes
+
+

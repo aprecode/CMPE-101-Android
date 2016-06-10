@@ -1,0 +1,14 @@
+I have created a class named polynomial. I typed it’s variable which is an array
+of double coefficients. Under this class I typed the methods that we used
+previous project.
+
+In differentiate method when i typed ‘return new Polynomial(result)’ I gives and
+error which can’t get why. Because it will obviously give another polynomial and 
+we have written that code in the lecture.
+
+In find root method it gives error at the while statement. I can’t type the 
+method that i have typed in mainActivity.
+
+I can’t go far. I need to learn how to type methods in classes. I have watched 
+many videos but they doesn’t give an answer to my problems. Also I don’t know 
+how to call them in mainActivity. 

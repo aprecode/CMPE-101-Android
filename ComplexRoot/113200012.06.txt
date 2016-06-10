@@ -1,0 +1,35 @@
+The program takes 4 inputs which are for polynomial coefficients, guess, accuracy 
+and iteration limit and gives one output for array of roots of a polynomial.
+
+Coefficients will be collected in an array. With a method I will create a 
+polynomial function with them. Guess is for getting a root. Accuracy is to get a
+better approximation and finally Iteration is the number that how many the 
+calculation will be recalculated 
+
+First i started with strings file which is in the dimensions folder. I typed the
+names and texts that will going to be presented on texts and buttons etc. Whit 
+this way i can type id identifications and texts faster. Then I created 4 input,
+1 output and 2 buttons; one is for adding coefficients to the array and the other
+one for finding roots. I’ve finished my work for app design
+
+In main activity I created editTexts, text views etc. and initialised them in 
+OnCreate section. Also I created two ArrayLists. One is for coefficients list and
+the other one is for rootsList (because there may be more then one root for a 
+polynomial)
+
+I have set a clickListener for adding coefficients to an arrayList. Then I typed
+my methods for evaluate a polynomial and finding derivative. Those will be used 
+for finding root method.
+
+I have set a clickListener for finding roots but I couldn’t call my evaluatePoly
+and derivative methods. It gives error when i type it in the findRoots method. 
+There are no other problem for my program I will try to solve this now 
+
+I have solved the problem that I explained before but another problem has 
+occurred that i can’t understand. My program gives an error at method calling 
+section and I don’t know how to solve it. I gives me to change my method but 
+that’s not the solution. Also couldn’t manage to set my solution to the output.
+
+I have manage to set solution to the output but the other problem still remains.
+It seems thats the only one problem. For now I have finished my work but I think
+the solution is simple but I can’t see it now.
